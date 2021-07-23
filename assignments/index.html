@@ -1,143 +1,87 @@
 <!DOCTYPE html>
-<html lang="en">
+<html>
 <head>
-  <meta charset="UTF-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1">
-  <title>Assignemt Solution for Module 2 </title>
-  <style>
-
-  	/*Base Styles*/
-  	* {
-  		box-sizing: border-box;
-  	}
-
-  	body {
-  		font-family: "Lucida Sans Unicode", "Lucida Grande", sans-serif;
-  		font-size: 90%;
-  		background-image: url(dark2.jpg);
-	    background-size: 100%;
-  	}
-
-  	h1 {
-  		text-align: center;
-  		color: white;
-  	}
-
-  	.row{
-			width: 100;
-	}
-
-  	section {
-  		border: 2px solid white;
-  		margin: 20px;
-  		overflow: auto;
-  		height: 305px;
-  		/*background-color: #F0FF33;*/
-  	}
-
-  	.title {
-  		float: right;
-  		border-left: 1px solid white;
-  		border-bottom: 1px solid white;
-  		font-size: 130%;
-  		font-weight: bold;
-  		padding: 5px 40px 5px 40px;
-  		background-color: #FF3342/*#FF6833*/;
-  	}
-
-  	p{
-  		clear: right;
-  		padding: 15px 15px 10px 15px;
-  		text-align: justify; 
-  		color: white;
-  	}
-
-	/* Large devices*/
-	@media (min-width: 992px) {
-		  .col-lg-1, .col-lg-2, .col-lg-3, .col-lg-4, .col-lg-5, .col-lg-6, .col-lg-7, .col-lg-8, .col-lg-9, .col-lg-10, .col-lg-11, .col-lg-12 {
-    
-				float: left;
-			
-		   }
-		
-		  .col-lg-4 {
-		    width: 33.33%;
-		  }
-		 
-		}
-			/* Tablet view */
-		@media(min-width: 768px) and (max-width: 991px){
-			.col-md-1, .col-md-2, .col-md-3, .col-md-4, .col-md-5, .col-md-6, .col-md-7, .col-md-8, .col-md-9, .col-md-10, .col-md-11, .col-md-12{
-				float: left;
-			}
-			.col-md-6{
-				width: 50%;
-			}
-			
-			.col-md-12{
-				width: 100%;
-			}
-			#p3 {
-				height: 200px;
-			}
-		}
-		
-		/* Mobile view */
-		@media(max-width: 767px){
-			
-			.col-sm-12{
-				float: left;
-				width: 100%;
-			}
-		
-			section{
-				height: 250px;
-			}
-		}
-
-</style>
+	<meta name="viewport" content="width=device-width, initial-scale=1.0" charset="utf-8">
+	<title>Harry Potter Books</title>
+	<link rel="stylesheet" href="style2.css">
+	<link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&display=swap">
 </head>
-
 <body>
-	<h1>Timeline</h1>
+	<div class="container">
+		<div class="navbar">
+			<img src="logo.jpg" class="logo">
+			<nav>
+				<ul>
+					<li><a href="">HOME</a></li>
+					<li><a href="">MOVIES</a></li>
+					<li><a href="">HOUSE</a></li>
+				</ul>
+			</nav>
+			<img src="menu.jpg" class="menu-icon">
+		</div>
 
-	<div class="row">
-		
-		<div class="col-lg-4 col-md-6 col-sm-12">
-			<section>
-				<div class="title">
-					1986
-				</div>
+		<div class="row">
+			<div class="col">
+				<h1>Harry Potter</h1>
+				<p>
+				Enter two lands of groundbreaking thrills and magical fun in Universal’s Islands of Adventure and Universal Studios Florida. Step inside the story on the streets of Diagon Alley where hidden dangers lurk far beneath Gringotts bank. Then, board the Hogwarts Express to travel to the wizarding village of Hogsmeade and into Hogwarts castle for a spellbinding journey through the skies. 
+				</p>
+				<button type="button">Explore</button>
+			</div>
+			<div class="col">
+				<div class="card card1">
+					<h4>Harry Potter and the Philosopher's Stone</h4>
 				
-				<p>
-					The events are: the Chernobyl disaster, the incident at Winden Nuclear Power Plant, the appointment of Claudia Tiedemann as the director of the power plant, the retirement of Bernd Doppler, the disappearance of Mads Nielsen, the unexplained deaths of 33 sheep belonging to Hermann Albers, the arrest of Ulrich Nielsen, and his subsequent release, the appearance of "Aleksander Köhler" in Winden, the adoption by Ines Kahnwald of Michael.
-				</p>
-			</section>
-		</div>
-
-		<div class="col-lg-4 col-md-6 col-sm-12">
-			<section>
-				<div class="title">
-					2020
 				</div>
-				<p>
-					The events are: Inspector Clausen is appointed to take over the police investigation of the disapperances in Winden, the cancer-stricken Regina Tiedemann declines admission to the hospital, preferring to stay at home; Martha and Bartosz break up; the Winden Nuclear Power Plant is decommissioned, and Aleksander uses the occasion to cover up evidence of the 1986 incident, Elisabeth discovers a photo of Noah from 1921 looking the same as he did in 2019, etc. 
-				</p>
-			</section>
-		</div>
-
-		<div class="col-lg-4 col-md-12 col-sm-12">
-			<section id="p3">
-				<div class="title">
-					2053
+				<div class="card card2">
+					<h4>Harry Potter and the Chamber of Secrets</h4>
+					
 				</div>
-				<p>
-					The events are: Sic Mundus prophesied date the passage will open and everyone will go to paradise, adult Elisabeth digs up family photos and other personal belongings in forest, adult Elisabeth goes by herself to the plant ruins, adult Elisabeth activates the equipment to stabilize the God Particle, adult Elisabeth touches 2020 Charlotte through the portal, adult Elisabeth time travels or dies in the apocalypse?, etc.
+				<div class="card card3">
+					<h4>Harry Potter and the Prisoner of Azkaban</h4>
+					
+				</div>
+				<div class="card card4">
+					<h4>Harry Potter and the Goblet of Fire</h4>
+				
+				</div>
+			</div>
+		</div>
+	</div>
+
+
+	<div class="container2">
+		<div class="row2">
+			
+				<h2>Discover your Hogwarts House!</h2>
+				<p class="house">
+				We can’t all go to Hogwarts and don the Sorting Hat, but here’s the next best thing – Wizarding World's very own Sorting Experience, previously on Pottermore! So, which house do you belong to? 
+				Are you Gryffindor? Are you Hufflepuff? Are you Slytherin? Are you Ravenclaw?
 				</p>
-			</section>
+				
+			
+				<div class="card card5">
+					<h4>Gryffindor</h4>
+				
+				</div>
+				<div class="card card6">
+					<h4>Ravenclaw</h4>
+					
+				</div>
+				<div class="card card7">
+					<h4>Hufflepuff</h4>
+					
+				</div>
+				<div class="card card8">
+					<h4>Slytherin</h4>
+				
+				</div>
+
+				<div class="begin">
+					<button class="button button2">BEGIN</button>
+				</div>
 		</div>
 
 	</div>
-
 </body>
 </html>
